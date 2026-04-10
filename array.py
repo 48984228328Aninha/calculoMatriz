@@ -9,3 +9,11 @@ B = py.array([[10, 11, 12],
 
 C = A @ B
 print(C)
+
+#criar uma matriz 3x5 sem precisar digitar tudo
+a = py.arrange(15)
+a = a.reshape(3,5)
+print(a)
+print(a.shape)
+print(a.size)
+print(len(a))
