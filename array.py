@@ -17,3 +17,12 @@ print(a)
 print(a.shape)
 print(a.size)
 print(len(a))
+
+a = py.range(15)
+print(f'a: =\n {a}')
+
+a = a.reshape(3,5)
+print(f'a: =\n {a}')
+
+b = a[1:3, 3:5] # para a linha de índice2 (os índices das 3 linhas são 0, 1 e 2), serão selecionados os elementos que ocupam os lugares dos índices 1 ao 3.
+print(f'b: =\n {b}')
